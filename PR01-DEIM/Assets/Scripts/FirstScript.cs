@@ -5,6 +5,21 @@ using UnityEngine;
 public class FirstScript : MonoBehaviour
     // Para combiar el nombre de todas las variables es RMB en la declarada al principio y cambiar nombre
     // == comparar, = es declarar
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     [SerializeField] float shield = 100;
     [SerializeField] float hp = 100;

@@ -18,7 +18,7 @@ public class NuevoMetodo : MonoBehaviour
     {
         lifes = 3;
         shield = 100f;
-        Impacto();
+        
 
     }
 
@@ -37,11 +37,12 @@ public class NuevoMetodo : MonoBehaviour
 
     //Nuevo mtodo
 
-    void Impacto()
+    public void Impacto()
     {
     
         hp = Random.Range(1f, 100f);
         shield -= hp;
+        
 
         if(shield < 0)
         {
@@ -57,7 +58,7 @@ public class NuevoMetodo : MonoBehaviour
             {
                 shield = 100f;
                 message = "Una vida menos crack, te quedan" + lifes;
-                Invoke("impacto", 10f);
+                //Invoke("impacto", 10f);
 
             }
          
@@ -67,11 +68,11 @@ public class NuevoMetodo : MonoBehaviour
         {
             shield = 100f;
             message = "te han impactado" + hp + "te queda " + shield + "de vida";
-            Invoke("impacto", 10f);
+            //Invoke("impacto", 10f);
 
         }
 
-        message = "me han dao" + hp;
+       
 
         print(message);
 
