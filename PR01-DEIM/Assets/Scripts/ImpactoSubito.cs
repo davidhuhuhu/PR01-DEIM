@@ -6,7 +6,7 @@ public class ImpactoSubito : MonoBehaviour
 {
     ImpactoSubito impacto = new ImpactoSubito();
 
->
+
     // Start is called before the first frame update
     void Start()
     {

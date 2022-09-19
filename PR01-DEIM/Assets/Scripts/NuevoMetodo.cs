@@ -19,6 +19,8 @@ public class NuevoMetodo : MonoBehaviour
         lifes = 3;
         shield = 100f;
         
+   
+
 
     }
 
@@ -64,12 +66,19 @@ public class NuevoMetodo : MonoBehaviour
          
          
         }
+        //-1 vida pero no he muerto todavia
         else
         {
             shield = 100f;
             message = "te han impactado" + hp + "te queda " + shield + "de vida";
             //Invoke("impacto", 10f);
+            // La variable "n" debe valer lo que vale el numero de vidas que has asignado anteriormente, en este caso la variable "lifes"
+            //Esto es un bucle
 
+            for (int n = lifes; n > 0; n--)
+            {
+                print("parpadea la vida" + n);
+            }
         }
 
        
