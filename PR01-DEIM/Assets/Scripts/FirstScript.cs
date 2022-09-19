@@ -48,7 +48,7 @@ public class FirstScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("fotograma: " + n);
+        /*print("fotograma: " + n);
         n++;
         if (n <= 500)
         {
@@ -58,7 +58,7 @@ public class FirstScript : MonoBehaviour
         else if(n <= 1000)
         {
             print("Hemos llegado a 1000");
-        }
+        }*/
     
     
     
